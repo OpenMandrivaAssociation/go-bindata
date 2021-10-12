@@ -1,4 +1,3 @@
-%global debug_package   %{nil}
 %global import_path     github.com/jteeuwen/go-bindata
 %global commit          a0ff2567cfb70903282db057e799fd826784d41d
 %global shortcommit     %(c=%{commit}; echo ${c:0:8})
