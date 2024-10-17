@@ -7,7 +7,7 @@ Version:        3.0.7
 Release:        0.git%{shortcommit}.2
 Summary:        A small utility which generates Go code from any file
 License:        MIT
-URL:            http://%{import_path}
+URL:            https://%{import_path}
 Source0:        https://%{import_path}/archive/%{commit}/go-bindata-%{shortcommit}.tar.xz
 BuildRequires:  golang >= 1.3.3
 # git clone https://github.com/jteeuwen/go-bindata
