@@ -3,8 +3,8 @@
 %global shortcommit     %(c=%{commit}; echo ${c:0:8})
 
 Name:           go-bindata
-Version:        3.0.7
-Release:        0.git%{shortcommit}.2
+Version:        4.0.2
+Release:        1.git%{shortcommit}.2
 Summary:        A small utility which generates Go code from any file
 License:        MIT
 URL:            https://%{import_path}
@@ -21,7 +21,7 @@ embedding binary data into a go program. The file data is optionally gzip
 compressed before being converted to a raw byte slice.
 
 %prep
-%setup -n go-bindata-%{commit}
+%setup -n go-bindata-a0ff2567cfb70903282db057e799fd826784d41d
 
 %build
 mkdir -p ./_build/src/github.com/jteeuwen/
